@@ -1,0 +1,396 @@
+2026-01-26 14:52:07,457 - INFO - Data loded successfully
+2026-01-26 14:52:07,457 - INFO - Total Rows in the data : 150002
+2026-01-26 14:52:07,457 - INFO - Total columns in the data : 18
+2026-01-26 14:52:07,482 - INFO - Before : NPA Status                                  2
+RevolvingUtilizationOfUnsecuredLines        2
+age                                         2
+Gender                                      2
+Region                                      2
+MonthlyIncome                           29733
+Rented_OwnHouse                             2
+Occupation                                  2
+Education                                   2
+NumberOfTime30-59DaysPastDueNotWorse        2
+DebtRatio                                   2
+MonthlyIncome.1                         29733
+NumberOfOpenCreditLinesAndLoans             2
+NumberOfTimes90DaysLate                     2
+NumberRealEstateLoansOrLines                2
+NumberOfTime60-89DaysPastDueNotWorse        2
+NumberOfDependents                       3924
+Good_Bad                                    2
+dtype: int64
+2026-01-26 14:52:07,505 - INFO - ===========================================
+2026-01-26 14:52:07,530 - INFO - After : NPA Status                                  0
+RevolvingUtilizationOfUnsecuredLines        0
+age                                         0
+Gender                                      0
+Region                                      0
+MonthlyIncome                           29731
+Rented_OwnHouse                             0
+Occupation                                  0
+Education                                   0
+NumberOfTime30-59DaysPastDueNotWorse        0
+DebtRatio                                   0
+NumberOfOpenCreditLinesAndLoans             0
+NumberOfTimes90DaysLate                     0
+NumberRealEstateLoansOrLines                0
+NumberOfTime60-89DaysPastDueNotWorse        0
+NumberOfDependents                       3924
+Good_Bad                                    0
+dtype: int64
+2026-01-26 14:52:07,530 - INFO - ===========================================
+2026-01-26 14:52:07,538 - INFO - MonthlyIncome -> float64
+2026-01-26 14:52:07,551 - INFO - NumberOfDependents -> object
+2026-01-26 14:52:07,562 - INFO - NumberOfDependents -> float64
+2026-01-26 14:52:07,584 - INFO - Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'MonthlyIncome', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'NumberOfDependents'],
+      dtype='object')
+2026-01-26 14:52:07,584 - INFO - Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'MonthlyIncome', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'NumberOfDependents'],
+      dtype='object')
+2026-01-26 14:52:07,586 - INFO - 108876    Good
+66628     Good
+50916     Good
+129001    Good
+76616     Good
+Name: Good_Bad, dtype: object
+2026-01-26 14:52:07,587 - INFO - 27861     Good
+134773    Good
+131670    Good
+19031     Good
+85214     Good
+Name: Good_Bad, dtype: object
+2026-01-26 14:52:07,587 - INFO - Training data size : (120000, 16)
+2026-01-26 14:52:07,587 - INFO - Testing data size : (30000, 16)
+2026-01-26 14:52:07,587 - INFO - Total rows in training data : (120000, 16)
+2026-01-26 14:52:07,587 - INFO - Total rows in testing data : (30000, 16)
+2026-01-26 14:52:07,587 - INFO - Before : Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'MonthlyIncome', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'NumberOfDependents'],
+      dtype='object')
+2026-01-26 14:52:07,587 - INFO - Before : Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'MonthlyIncome', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'NumberOfDependents'],
+      dtype='object')
+2026-01-26 14:52:07,602 - INFO - Before : NPA Status                                  0
+RevolvingUtilizationOfUnsecuredLines        0
+age                                         0
+Gender                                      0
+Region                                      0
+MonthlyIncome                           23767
+Rented_OwnHouse                             0
+Occupation                                  0
+Education                                   0
+NumberOfTime30-59DaysPastDueNotWorse        0
+DebtRatio                                   0
+NumberOfOpenCreditLinesAndLoans             0
+NumberOfTimes90DaysLate                     0
+NumberRealEstateLoansOrLines                0
+NumberOfTime60-89DaysPastDueNotWorse        0
+NumberOfDependents                       3165
+dtype: int64
+2026-01-26 14:52:07,606 - INFO - Before : NPA Status                                 0
+RevolvingUtilizationOfUnsecuredLines       0
+age                                        0
+Gender                                     0
+Region                                     0
+MonthlyIncome                           5964
+Rented_OwnHouse                            0
+Occupation                                 0
+Education                                  0
+NumberOfTime30-59DaysPastDueNotWorse       0
+DebtRatio                                  0
+NumberOfOpenCreditLinesAndLoans            0
+NumberOfTimes90DaysLate                    0
+NumberRealEstateLoansOrLines               0
+NumberOfTime60-89DaysPastDueNotWorse       0
+NumberOfDependents                       759
+dtype: int64
+2026-01-26 14:52:07,685 - INFO - After : Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_replaced', 'NumberOfDependents_replaced'],
+      dtype='object')
+2026-01-26 14:52:07,685 - INFO - After : Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_replaced', 'NumberOfDependents_replaced'],
+      dtype='object')
+2026-01-26 14:52:07,699 - INFO - After : NPA Status                              0
+RevolvingUtilizationOfUnsecuredLines    0
+age                                     0
+Gender                                  0
+Region                                  0
+Rented_OwnHouse                         0
+Occupation                              0
+Education                               0
+NumberOfTime30-59DaysPastDueNotWorse    0
+DebtRatio                               0
+NumberOfOpenCreditLinesAndLoans         0
+NumberOfTimes90DaysLate                 0
+NumberRealEstateLoansOrLines            0
+NumberOfTime60-89DaysPastDueNotWorse    0
+MonthlyIncome_replaced                  0
+NumberOfDependents_replaced             0
+dtype: int64
+2026-01-26 14:52:07,703 - INFO - After : NPA Status                              0
+RevolvingUtilizationOfUnsecuredLines    0
+age                                     0
+Gender                                  0
+Region                                  0
+Rented_OwnHouse                         0
+Occupation                              0
+Education                               0
+NumberOfTime30-59DaysPastDueNotWorse    0
+DebtRatio                               0
+NumberOfOpenCreditLinesAndLoans         0
+NumberOfTimes90DaysLate                 0
+NumberRealEstateLoansOrLines            0
+NumberOfTime60-89DaysPastDueNotWorse    0
+MonthlyIncome_replaced                  0
+NumberOfDependents_replaced             0
+dtype: int64
+2026-01-26 14:52:07,704 - INFO - Total rows in training data : (120000, 16)
+2026-01-26 14:52:07,704 - INFO - Total rows in testing data : (30000, 16)
+2026-01-26 14:52:07,704 - INFO - Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_replaced', 'NumberOfDependents_replaced'],
+      dtype='object')
+2026-01-26 14:52:07,704 - INFO - Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_replaced', 'NumberOfDependents_replaced'],
+      dtype='object')
+2026-01-26 14:52:07,704 - INFO - ----------------------------------
+2026-01-26 14:52:07,710 - INFO - Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_replaced', 'NumberOfDependents_replaced'],
+      dtype='object')
+2026-01-26 14:52:07,710 - INFO - Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
+2026-01-26 14:52:07,710 - INFO - Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_replaced', 'NumberOfDependents_replaced'],
+      dtype='object')
+2026-01-26 14:52:07,710 - INFO - Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
+2026-01-26 14:52:07,710 - INFO - (120000, 11)
+2026-01-26 14:52:07,710 - INFO - (120000, 5)
+2026-01-26 14:52:07,710 - INFO - (30000, 11)
+2026-01-26 14:52:07,710 - INFO - (30000, 5)
+2026-01-26 14:52:08,383 - INFO - Index(['NPA Status_yeo_trim', 'RevolvingUtilizationOfUnsecuredLines_yeo_trim',
+       'age_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='object') -> (120000, 11)
+2026-01-26 14:52:08,383 - INFO - Index(['NPA Status_yeo_trim', 'RevolvingUtilizationOfUnsecuredLines_yeo_trim',
+       'age_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='object') -> (30000, 11)
+2026-01-26 14:52:08,383 - INFO -  Before : Index(['NPA Status_yeo_trim', 'RevolvingUtilizationOfUnsecuredLines_yeo_trim',
+       'age_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='object') -> (120000, 11)
+2026-01-26 14:52:08,383 - INFO - Before : Index(['NPA Status_yeo_trim', 'RevolvingUtilizationOfUnsecuredLines_yeo_trim',
+       'age_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='object') -> (30000, 11)
+2026-01-26 14:52:08,937 - INFO -  After : Index(['age_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='object') -> (120000, 4)
+2026-01-26 14:52:08,938 - INFO - After : Index(['age_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='object') -> (30000, 4)
+2026-01-26 14:52:08,938 - INFO - Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
+2026-01-26 14:52:08,938 - INFO - Index(['Gender', 'Region', 'Rented_OwnHouse', 'Occupation', 'Education'], dtype='object')
+2026-01-26 14:52:08,940 - INFO - Gender -> : ['Female' 'Male']
+2026-01-26 14:52:08,944 - INFO - Region -> : ['West' 'South' 'Central' 'North' 'East']
+2026-01-26 14:52:08,947 - INFO - Rented_OwnHouse -> : ['Ownhouse' 'Rented']
+2026-01-26 14:52:08,950 - INFO - Occupation -> : ['Self_Emp' 'Non-officer' 'Officer2' 'Officer3' 'Officer1']
+2026-01-26 14:52:08,954 - INFO - Education -> : ['Graduate' 'Matric' 'Professional' 'Post-Grad' 'PhD']
+2026-01-26 14:52:08,958 - INFO - Before Converting :         Gender   Region Rented_OwnHouse   Occupation     Education
+104025  Female     West        Ownhouse     Self_Emp      Graduate
+5415      Male    South        Ownhouse     Self_Emp        Matric
+75612   Female  Central          Rented  Non-officer  Professional
+138169    Male     West        Ownhouse  Non-officer  Professional
+87184   Female  Central        Ownhouse  Non-officer      Graduate
+...        ...      ...             ...          ...           ...
+119879    Male     West        Ownhouse     Self_Emp      Graduate
+103694    Male     West        Ownhouse     Self_Emp           PhD
+131932    Male     East          Rented     Officer1  Professional
+146867    Male    South          Rented     Self_Emp  Professional
+121958  Female     East          Rented     Self_Emp     Post-Grad
+
+[120000 rows x 5 columns]
+2026-01-26 14:52:08,961 - INFO - Before Converting :         Gender   Region Rented_OwnHouse   Occupation     Education
+59770     Male  Central          Rented     Self_Emp  Professional
+21362   Female    North          Rented     Officer3     Post-Grad
+127324  Female     East          Rented     Officer1     Post-Grad
+140509    Male     West          Rented  Non-officer  Professional
+144297    Male     West          Rented     Officer2  Professional
+...        ...      ...             ...          ...           ...
+30430     Male    North          Rented  Non-officer      Graduate
+63244     Male  Central          Rented     Officer2  Professional
+104970  Female     West          Rented     Self_Emp      Graduate
+53960     Male     East          Rented     Officer1  Professional
+49315   Female     East          Rented     Officer3     Post-Grad
+
+[30000 rows x 5 columns]
+2026-01-26 14:52:09,070 - INFO - Index(['Gender_Male', 'Region_East', 'Region_North', 'Region_South',
+       'Region_West', 'Rented_OwnHouse_res', 'Occupation_res',
+       'Education_res'],
+      dtype='object')
+2026-01-26 14:52:09,070 - INFO - Index(['Gender_Male', 'Region_East', 'Region_North', 'Region_South',
+       'Region_West', 'Rented_OwnHouse_res', 'Occupation_res',
+       'Education_res'],
+      dtype='object')
+2026-01-26 14:52:09,074 - INFO - After Converting :         Gender_Male  Region_East  Region_North  Region_South  Region_West  Rented_OwnHouse_res  Occupation_res  Education_res
+0               0.0          0.0           0.0           0.0          1.0                  0.0             4.0            0.0
+1               1.0          0.0           0.0           1.0          0.0                  0.0             4.0            1.0
+2               0.0          0.0           0.0           0.0          0.0                  1.0             0.0            4.0
+3               1.0          0.0           0.0           0.0          1.0                  0.0             0.0            4.0
+4               0.0          0.0           0.0           0.0          0.0                  0.0             0.0            0.0
+...             ...          ...           ...           ...          ...                  ...             ...            ...
+119995          1.0          0.0           0.0           0.0          1.0                  0.0             4.0            0.0
+119996          1.0          0.0           0.0           0.0          1.0                  0.0             4.0            2.0
+119997          1.0          1.0           0.0           0.0          0.0                  1.0             1.0            4.0
+119998          1.0          0.0           0.0           1.0          0.0                  1.0             4.0            4.0
+119999          0.0          1.0           0.0           0.0          0.0                  1.0             4.0            3.0
+
+[120000 rows x 8 columns]
+2026-01-26 14:52:09,078 - INFO - After Converting :        Gender_Male  Region_East  Region_North  Region_South  Region_West  Rented_OwnHouse_res  Occupation_res  Education_res
+0              1.0          0.0           0.0           0.0          0.0                  1.0             4.0            4.0
+1              0.0          0.0           1.0           0.0          0.0                  1.0             3.0            3.0
+2              0.0          1.0           0.0           0.0          0.0                  1.0             1.0            3.0
+3              1.0          0.0           0.0           0.0          1.0                  1.0             0.0            4.0
+4              1.0          0.0           0.0           0.0          1.0                  1.0             2.0            4.0
+...            ...          ...           ...           ...          ...                  ...             ...            ...
+29995          1.0          0.0           1.0           0.0          0.0                  1.0             0.0            0.0
+29996          1.0          0.0           0.0           0.0          0.0                  1.0             2.0            4.0
+29997          0.0          0.0           0.0           0.0          1.0                  1.0             4.0            0.0
+29998          1.0          1.0           0.0           0.0          0.0                  1.0             1.0            4.0
+29999          0.0          1.0           0.0           0.0          0.0                  1.0             3.0            3.0
+
+[30000 rows x 8 columns]
+2026-01-26 14:52:09,078 - INFO - (120000, 8)
+2026-01-26 14:52:09,079 - INFO - (30000, 8)
+2026-01-26 14:52:09,079 - INFO - Gender_Male            0
+Region_East            0
+Region_North           0
+Region_South           0
+Region_West            0
+Rented_OwnHouse_res    0
+Occupation_res         0
+Education_res          0
+dtype: int64
+2026-01-26 14:52:09,080 - INFO - Gender_Male            0
+Region_East            0
+Region_North           0
+Region_South           0
+Region_West            0
+Rented_OwnHouse_res    0
+Occupation_res         0
+Education_res          0
+dtype: int64
+2026-01-26 14:52:09,081 - INFO - (120000, 12)
+2026-01-26 14:52:09,082 - INFO - (30000, 12)
+2026-01-26 14:52:09,082 - INFO - age_yeo_trim                                0
+NumberOfOpenCreditLinesAndLoans_yeo_trim    0
+NumberRealEstateLoansOrLines_yeo_trim       0
+MonthlyIncome_replaced_yeo_trim             0
+Gender_Male                                 0
+Region_East                                 0
+Region_North                                0
+Region_South                                0
+Region_West                                 0
+Rented_OwnHouse_res                         0
+Occupation_res                              0
+Education_res                               0
+dtype: int64
+2026-01-26 14:52:09,083 - INFO - age_yeo_trim                                0
+NumberOfOpenCreditLinesAndLoans_yeo_trim    0
+NumberRealEstateLoansOrLines_yeo_trim       0
+MonthlyIncome_replaced_yeo_trim             0
+Gender_Male                                 0
+Region_East                                 0
+Region_North                                0
+Region_South                                0
+Region_West                                 0
+Rented_OwnHouse_res                         0
+Occupation_res                              0
+Education_res                               0
+dtype: int64
+2026-01-26 14:52:09,083 - INFO - =======================================================
+2026-01-26 14:52:09,090 - INFO -        age_yeo_trim  NumberOfOpenCreditLinesAndLoans_yeo_trim  NumberRealEstateLoansOrLines_yeo_trim  ...  Rented_OwnHouse_res  Occupation_res  Education_res
+92381     22.078414                                  2.532317                               0.000000  ...                  1.0             3.0            3.0
+12670     14.101228                                  3.614939                               0.636845  ...                  1.0             3.0            3.0
+2750      17.294637                                  3.117028                               0.961669  ...                  0.0             4.0            2.0
+25278     12.492182                                  5.595964                               0.961669  ...                  1.0             4.0            4.0
+31623     24.458528                                  5.138950                               0.000000  ...                  0.0             4.0            3.0
+7297      19.981792                                  3.117028                               0.961669  ...                  0.0             4.0            0.0
+13559     10.766585                                  1.352471                               0.000000  ...                  0.0             4.0            4.0
+95983     21.461271                                  3.374770                               0.961669  ...                  0.0             4.0            4.0
+32457     13.576099                                  3.117028                               0.636845  ...                  1.0             0.0            4.0
+14166     17.986598                                  3.840328                               0.636845  ...                  1.0             3.0            3.0
+
+[10 rows x 12 columns]
+2026-01-26 14:52:09,095 - INFO -        age_yeo_trim  NumberOfOpenCreditLinesAndLoans_yeo_trim  NumberRealEstateLoansOrLines_yeo_trim  ...  Rented_OwnHouse_res  Occupation_res  Education_res
+5968      27.809235                                  6.334209                                    1.0  ...                  0.0             4.0            1.0
+24304     27.809235                                  6.334209                                    0.0  ...                  1.0             4.0            4.0
+24038     27.809235                                  6.334209                                    2.0  ...                  1.0             4.0            0.0
+4697      27.809235                                  1.000000                                    0.0  ...                  0.0             4.0            4.0
+28579     27.809235                                  6.334209                                    0.0  ...                  0.0             3.0            3.0
+25309     27.809235                                  2.000000                                    0.0  ...                  0.0             4.0            3.0
+86        27.809235                                  6.334209                                    1.0  ...                  0.0             4.0            0.0
+10067     27.809235                                  6.334209                                    2.0  ...                  0.0             0.0            0.0
+14468     27.809235                                  3.000000                                    0.0  ...                  0.0             0.0            0.0
+27523     27.809235                                  6.334209                                    1.0  ...                  1.0             3.0            3.0
+
+[10 rows x 12 columns]

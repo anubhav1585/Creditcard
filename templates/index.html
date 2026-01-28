@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Credit Card Risk Prediction</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f8fb;
+        }
+        .card {
+            margin-top: 40px;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        .title {
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="card shadow-lg text-center">
+        <h1 class="title mb-4">💳 Credit Card Risk Prediction</h1>
+
+        <form action="/predict" method="POST">
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="number" class="form-control" name="Age" placeholder="Age" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="number" class="form-control"
+                           name="NumberOfOpenCreditLinesAndLoans_yeo_trim"
+                           placeholder="Open Credit Lines" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="number" class="form-control"
+                           name="NumberRealEstateLoansOrLines_yeo_trim"
+                           placeholder="Real Estate Loans" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="number" class="form-control"
+                           name="MonthlyIncome_replaced_yeo_trim"
+                           placeholder="Monthly Income" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="number" class="form-control" name="Gender_male"
+                           placeholder="Gender (Male=1, Female=0)" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="number" class="form-control" name="RentedOwnHouse"
+                           placeholder="House (Rent=0, Own=1)" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <input type="number" class="form-control" name="Region_East" placeholder="East">
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="number" class="form-control" name="Region_North" placeholder="North">
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="number" class="form-control" name="Region_South" placeholder="South">
+                </div>
+                <div class="form-group col-md-3">
+                    <input type="number" class="form-control" name="Region_west" placeholder="West">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <input type="number" class="form-control" name="Occupation"
+                           placeholder="Occupation Code" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="number" class="form-control" name="Education"
+                           placeholder="Education Level" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-success btn-block mt-3">
+                Predict Credit Risk
+            </button>
+        </form>
+
+        {% if prediction_text %}
+            <h4 class="mt-4 text-primary">
+                Prediction Result: <strong>{{ prediction_text }}</strong>
+            </h4>
+        {% endif %}
+    </div>
+
+    <div class="text-center mt-5">
+        <h3>Project By Isha</h3>
+        <p>Credit Card Data Machine Learning Project</p>
+    </div>
+</div>
+
+<!-- Bootstrap Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>

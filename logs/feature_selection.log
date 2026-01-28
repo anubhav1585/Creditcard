@@ -1,0 +1,43 @@
+2026-01-26 14:52:08,383 - INFO - Index(['NPA Status_yeo_trim', 'RevolvingUtilizationOfUnsecuredLines_yeo_trim',
+       'age_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='object') -> (120000, 11)
+2026-01-26 14:52:08,383 - INFO - Index(['NPA Status_yeo_trim', 'RevolvingUtilizationOfUnsecuredLines_yeo_trim',
+       'age_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'DebtRatio_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim',
+       'NumberOfDependents_replaced_yeo_trim'],
+      dtype='object') -> (30000, 11)
+2026-01-26 14:52:08,389 - INFO - Columns we need to remove from constant technique : Index(['NPA Status_yeo_trim', 'NumberOfTime30-59DaysPastDueNotWorse_yeo_trim',
+       'NumberOfTimes90DaysLate_yeo_trim',
+       'NumberOfTime60-89DaysPastDueNotWorse_yeo_trim'],
+      dtype='object')
+2026-01-26 14:52:08,394 - INFO - Columns we need to remove from quansi constant technique : Index(['RevolvingUtilizationOfUnsecuredLines_yeo_trim', 'NumberOfDependents_replaced_yeo_trim'], dtype='object')
+2026-01-26 14:52:08,395 - INFO - Index(['age_yeo_trim', 'DebtRatio_yeo_trim',
+       'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='object') -> (120000, 5)
+2026-01-26 14:52:08,395 - INFO - Index(['age_yeo_trim', 'DebtRatio_yeo_trim',
+       'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='object') -> (30000, 5)
+2026-01-26 14:52:08,399 - INFO - ['Good' 'Bad']
+2026-01-26 14:52:08,403 - INFO - [1 0]
+2026-01-26 14:52:08,937 - INFO - Index(['age_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='object') -> (120000, 4)
+2026-01-26 14:52:08,937 - INFO - Index(['age_yeo_trim', 'NumberOfOpenCreditLinesAndLoans_yeo_trim',
+       'NumberRealEstateLoansOrLines_yeo_trim',
+       'MonthlyIncome_replaced_yeo_trim'],
+      dtype='object') -> (30000, 4)
